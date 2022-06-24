@@ -1,0 +1,29 @@
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    margin: 1em;
+    color:black;
+}
+
+a {
+    text-decoration: none;
+    color:black;
+}
+
+.column {
+    float:left;
+    width: 50%;
+  
+}
+#column2{
+    background-image: ;
+}
+img {
+    height: 1rem;
+    width: 1rem;
+}
+
