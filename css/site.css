@@ -14,13 +14,17 @@ a {
     color:black;
 }
 
+.row {
+    display: flex;
+}
+
 .column {
-    float:left;
+    flex:1;
     width: 50%;
-  
+    
 }
 #column2{
-    background-image: ;
+    
 }
 img {
     height: 1rem;
