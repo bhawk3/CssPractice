@@ -1,33 +1,29 @@
 
-body{
-    margin: 0;
-    padding: 0;
-}
 
 .navbar {
     margin: 1em;
     color:black;
+    display: flex;
+    justify-content: flex-end;
+    
 }
+
 
 a {
     text-decoration: none;
     color:black;
 }
 
-.row {
-    display: flex;
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
-.column {
-    flex:1;
-    width: 50%;
-    
-}
-#column2{
-    
-}
 img {
-    height: 1rem;
-    width: 1rem;
+    height: 125px;
+    width: 125px;
+    padding-right: 100px;
 }
-
+#column2 {
+    background-color: blue;
+}
