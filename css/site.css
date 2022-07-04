@@ -14,16 +14,58 @@ a {
     color:black;
 }
 
-.grid-container {
+
+/*********
+            Start of the first two columns
+                                            ********/
+.grid-container1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 
-img {
-    height: 125px;
-    width: 125px;
-    padding-right: 100px;
+.column1 {
+    background-color: darkgreen;
+    display: flex;
+    align-items: center;
 }
+img {
+    width: 50%;
+    padding: 10px
+}
+
 #column2 {
     background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+/***********
+            Start of the second two columns
+                                            *********/
+.grid-container2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.column3 {
+    background-color: purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.secondImg {
+    width: 50%;
+    padding: 10px;
+}
+
+.column4 {
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+}
+
+/*******
+        Start of the third two columns 
+                                    ********/
