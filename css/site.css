@@ -69,3 +69,31 @@ img {
 /*******
         Start of the third two columns 
                                     ********/
+.flex-container3 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.column6 {
+    background-color: bisque;
+    flex: 1 1 70%;
+    min-width: 25ch;
+}
+
+.column5 {
+    background-color:gray;
+    flex: 1 1 30%;
+    min-width: 15ch;
+}
+
+/*******
+        Start of the fourth two columns 
+                                    ********/
+.flex-container4 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.column7 {
+    
+}
